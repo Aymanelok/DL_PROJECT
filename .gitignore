@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables (Sensitive data)
+.env
+
+# Large files / Datasets / ML models
+*.pth
+*.pkl
+*.npy
+*.parquet
+dataset.json
+hate_speech_logs.json
+Hate_speech_video.mp4
